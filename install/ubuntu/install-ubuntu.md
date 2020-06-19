@@ -7,7 +7,9 @@ sudo apt install -y net-tools rsync git m4 build-essential patch unzip bubblewra
 sudo useradd -m -s /usr/bin/bash tzlibre
 ```
 # Download and compile TZLibre
+Next steps as user tzlibre
 ```
+su tzlibre
 git clone https://github.com/tzlibre/tzlibre
 cd tzlibre
 opam init --bare
