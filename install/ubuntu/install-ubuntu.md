@@ -25,7 +25,8 @@ export TZLIBRE_CLIENT_UNSAFE_DISABLE_DISCLAIMER=Y
 mkdir -p ~/tzlibre/logs
 ~/tzlibre/tzlibre-node identity generate
 ~/tzlibre/tzlibre-node config init
-~/tzlibre/tzlibre-node config update --peer=192.168.178.22:9732
+~/tzlibre/tzlibre-node
+~/tzlibre/tzlibre-node config update --peer=123.321.123.321:9732 # => if you need to connect to a specific peer
 mkdir -p ~/tzlibre/logs
 nohup ~/tzlibre/tzlibre-node run --rpc-addr localhost:8732 > ~/tzlibre/logs/tzlibre-node.log &
 ```
